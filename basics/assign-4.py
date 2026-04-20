@@ -9,5 +9,5 @@ name = "Alice"
 Welcome to Python, Alice!
 ```
 '''
-name="Alice"
+name = "Alice"
 print(f"Welcome to Python, {name}!")

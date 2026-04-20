@@ -7,9 +7,9 @@ John
 Reading
 '''
 
-name="demo"
-age="20"
-hobby="Reading"
+name = "demo"
+age = 20
+hobby = "Reading"
 print(name)
 print(age)
 print(hobby)

@@ -7,7 +7,7 @@ Create a program that stores and prints information about a book:
 
 Print each in the format: `[Title] by [Author] has [Pages] pages`
 '''
-title="Python Basics"
-author="John Doe"
-pages=350
+title = "Python Basics"
+author = "John Doe"
+pages = 350
 print(f"{title} by {author} has {pages} pages")

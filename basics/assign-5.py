@@ -8,8 +8,8 @@ Create variables for a student's information and print a summary:
 
 Print in a readable format (you choose the format).
 '''
-student_name="Ash"
-rollnumber=45
-grade="four"
-schoolname="dsgs"
+student_name = "Ash"
+roll_number = 45
+grade = "four"
+school_name = "dsgs"
 print(f"{student_name} bearing {rollnumber} in {grade} grade studying in {schoolname}")

@@ -10,6 +10,6 @@ Write a program that stores the temperature in Celsius and prints it in both Cel
 ```
 
 '''
-celsius=int(input())
-fahrenheit=(celsius * 9/5) + 32
+celsius = 0
+fahrenheit = (celsius * 9/5) + 32
 print(f"{celsius}°C is {fahrenheit}°F")

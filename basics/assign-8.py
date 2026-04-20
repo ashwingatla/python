@@ -6,7 +6,7 @@ Create a program that calculates the area of a rectangle.
 Print: `The area of the rectangle is 50 square units`
 
 '''
-length=10
-width=5
-area_rectangle=length*width
+length = 10
+width = 5
+area_rectangle = length * width
 print(f"The area of the rectangle is {area_rectangle} square units")

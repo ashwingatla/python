@@ -9,8 +9,8 @@ Create a program that calculates the simple interest.
 
 Print the result with proper formatting.
 '''
-principal=1000
-rate=5
-time=2
-simple_interest=(principal*rate*time)/100
+principal = 1000
+rate = 5
+time = 2
+simple_interest = (principal * rate * time)/100
 print(f"Simple interest for principal:{principal} with interest:{rate}% in the timeframe:{time}years is {simple_interest}")

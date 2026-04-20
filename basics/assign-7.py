@@ -9,7 +9,7 @@ Last Name: Doe
 Full Name: John Doe
 ```
 '''
-first_name="John"
-last_name="doe"
-print(first_name+" "+last_name)
+first_name = "John"
+last_name = "doe"
+print(first_name + " " + last_name)
 
