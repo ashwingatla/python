@@ -13,4 +13,4 @@ principal = 1000
 rate = 5
 time = 2
 simple_interest = (principal * rate * time)/100
-print(f"Simple interest for principal:{principal} with interest:{rate}% in the timeframe:{time}years is {simple_interest}")
+print(f"Simple interest for principal:{principal} with rate:{rate}% in the time period: {time} years is {simple_interest}")

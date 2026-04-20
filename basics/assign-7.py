@@ -10,6 +10,5 @@ Full Name: John Doe
 ```
 '''
 first_name = "John"
-last_name = "doe"
-print(first_name + " " + last_name)
-
+last_name = "Doe"
+print(f"{first_name} {last_name}")

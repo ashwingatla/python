@@ -10,6 +10,6 @@ Print in a readable format (you choose the format).
 '''
 student_name = "Ash"
 roll_number = 45
-grade = "four"
+grade = 4
 school_name = "dsgs"
-print(f"{student_name} bearing {rollnumber} in {grade} grade studying in {schoolname}")
+print(f"{student_name} bearing {roll_number} in {grade}th grade studying in {school_name}")
