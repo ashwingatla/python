@@ -4,17 +4,20 @@
 # print(f"{name} empty dictionary")
 
 # ## Create a Dictionary
-name = {"kid":1,"adult":"ashwin"}
+name = {"kid":1,"adult":"john", 'age' : '36'}
 # print(name)
 
 # ## Accessing an element in a Dictionary
 # print(name['kid'])
 
 # ## Accessing an element in a Dictionary with get function
-print(name.get('kid'))
+#print(name.get('age','na'))
+
+## Accessing an element that does not exist in a Dictionary with get function with a default value
+#print(name.get('grade','na'))
 
 # ## Accessing an element in a Dictionary with get function with no key
-print(name.get('kid',0)+1)
+print(name.get('kid',1)+1)
 
 # ## Adding an element to a Dictionary
 # name['kidage']=20
