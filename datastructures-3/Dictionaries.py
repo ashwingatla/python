@@ -4,29 +4,30 @@
 # print(f"{name} empty dictionary")
 
 # ## Create a Dictionary
-name = {"kid":1,"adult":"ashwin"}
+name = {"kid":1,"adult":"Ash"}
 # print(name)
 
 # ## Accessing an element in a Dictionary
 # print(name['kid'])
 
 # ## Accessing an element in a Dictionary with get function
-print(name.get('kid'))
+#print(name.get('kid'))
 
-# ## Accessing an element in a Dictionary with get function with no key
-print(name.get('kid',0)+1)
+# ## Accessing an element in a Dictionary with get function with no key and diplaying a default value
+#print(name.get('kid',0))
 
 # ## Adding an element to a Dictionary
-# name['kidage']=20
-# print(name)
+name['kidage']=20
+name['address']='hyderabad'
+#print(name)
 
 # ## Remove an element to a Dictionary
-# del name['kid']
-# print(name)
+#del name['kid']
+#print(name)
 
 # ## Update an element to a Dictionary
-# name['kid']="Harith"
-# print(name)
+name['kid']="Hari"
+#print(name)
 
 # ## Dictionary Methods
 # keys = name.keys()  ## fetch all the keys
@@ -35,15 +36,15 @@ print(name.get('kid',0)+1)
 # values = name.values()  ## Fetch all the values
 # print(values)
 
-# items = name.items() ## Create a List of key-value pairs in the form of tuples
-# print(items)
+#items = name.items() ## Create a List of key-value pairs in the form of tuples
+#print(items)
 
 # ## Shallow Copy -- All to duplicate a dictionary and make changes to duplicated dictionary without effecting the original dictionary
 
 # name_copy = name.copy()
-# print(name)
-# name_copy['kid'] = 'Aditya'
+# name_copy['kid'] = 'Adi'
 # print(name_copy)
+# print(name)
 
 # ## Iterating over the dictionary
 # for key in name.keys():  ## iterating over keys
@@ -55,11 +56,13 @@ print(name.get('kid',0)+1)
 # for key,val in name.items():  ## iterate over the dictionary items
 #     print(key,val)
 
-# ## Nested Dictionaries
-# student_list = {"student1" : {"name":"ash","age":9,"grade":"class3"},
+## Nested Dictionaries
+# student_list = {"student1" : {"name":"adi","age":9,"grade":"class3"},
 #                 "student2" : {"name":"ash","age":10,"grade":"class4"},
 #                 "student3" : {"name":"ash","age":11,"grade":"class5"}}
 # print(student_list["student1"])
+# print(student_list["student2"])
+# print(student_list["student3"])
 
 # ## Iterating over nested dictionaries
 # print("Iterating over nested dictionaries")
