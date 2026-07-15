@@ -4,23 +4,13 @@
 # print(f"{name} empty dictionary")
 
 # ## Create a Dictionary
-<<<<<<< HEAD
-name = {"kid":1,"adult":"Ash"}
-=======
 name = {"kid":1,"adult":"john", 'age' : '36'}
->>>>>>> 810f9e146fe9245632bf1915bb58b00a86854a2f
 # print(name)
 
 # ## Accessing an element in a Dictionary
 # print(name['kid'])
 
 # ## Accessing an element in a Dictionary with get function
-<<<<<<< HEAD
-#print(name.get('kid'))
-
-# ## Accessing an element in a Dictionary with get function with no key and diplaying a default value
-#print(name.get('kid',0))
-=======
 #print(name.get('age','na'))
 
 ## Accessing an element that does not exist in a Dictionary with get function with a default value
@@ -28,7 +18,6 @@ name = {"kid":1,"adult":"john", 'age' : '36'}
 
 # ## Accessing an element in a Dictionary with get function with no key
 print(name.get('kid',1)+1)
->>>>>>> 810f9e146fe9245632bf1915bb58b00a86854a2f
 
 # ## Adding an element to a Dictionary
 name['kidage']=20
