@@ -42,8 +42,6 @@
 # print(lst)
 # ## Count the items in a list
 # lst.insert(1,"win")
-# print(lst)
-# print(lst.count(2))
 
 # ## Reverse of a list
 # lst.reverse()
@@ -54,7 +52,7 @@
 # print(lst)
 
 # ## Extend items in a list by appending another list
-# fruits=['banana','orange','kiwi','watermelon','apple']
+fruits=['banana','orange','kiwi','watermelon','apple']
 # lst.extend(fruits)
 # print(lst)
 
@@ -75,8 +73,14 @@
 # lst.reverse()
 # print(lst)
 
-## Clear the list
-# fruits.clear()
+#### List functions
+
+#Length,Min, Max, Sort, sum of the list
+# print(len(numbers))
+# print(min(numbers))
+# print(max(numbers))
+# print(sorted(numbers))
+# print(sum(numbers))
 
 # # Slicing Lists
 # print(fruits[1:3])
@@ -92,10 +96,18 @@
 #     print(item)
 
 # # Iterating over using index with enumerate
-# for num,item in enumerate(fruits):
+#
+## Start from a specific index number
+# for num,item in enumerate(fruits,start=1):
 #     print(num,item)
 
 ## List comprehension
+
+## Print Range from 0 to 6
+# Basic Syntax [expression for item in iterable]
+numbers = [x for x in range(0,7)]
+#print(numbers)
+
 # ## Basic Syntax [expression for item in iterable]
 # lst=[x**2 for x in range(10) ]
 # print(lst)
@@ -103,6 +115,12 @@
 # ## Basic Syntax with Logic [expression for item in iterable if condition]
 # lst=[x**2 for x in range(10) if x % 2 == 0]
 # print(lst)
+
+# ## Basic Syntax with Logic [expression for item in iterable if else condition]
+marks = [80, 30, 90, 45, 20]
+results = [ "PASS" if x > 35 else "FAIL" for x in marks]
+print(results)
+
 
 # ## Nested list comprehension [expression for item in iterable for item2 in iterable]
 # lst=[x * y for x in range(1,5) for y in range(1,10)]
@@ -113,3 +131,8 @@
 fruits=['banana','orange','kiwi','watermelon','apple','mango', 'guava']
 length=[len(item) for item in fruits]
 print(length)
+
+## Convert to lower case List.lower(), Similarly for upper list.upper()
+courses = ["JAVA", "Python", "DevOps", "GEN AI"]
+lowers = [ x.lower() for x in courses ]
+print(lowers)
