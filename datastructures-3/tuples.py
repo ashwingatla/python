@@ -70,8 +70,8 @@ vehicles = 'car','bus','auto','train'
 # print(b) ## Converts to a list
 # print(c)
 
-# nested_tuple=(captls,tup,tup1)
-# print(nested_tuple)
+#nested_tuple=(captls,tup,tup1)
+#print(nested_tuple)
 
 ## Check Value Exists in Tuple
 

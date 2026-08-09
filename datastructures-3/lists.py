@@ -3,7 +3,7 @@
 # print(lst)
 
 # ## Element in a list (string, Numbers and boolean)
-# lst = ["mango","apple", 1,2,3,True]
+lst = ["mango","apple", 1,2,3,True]
 # print(lst)
 
 # ## Access elements in a list using indexes
@@ -19,7 +19,18 @@
 # lst[1] = "banana"
 # print(lst)
 
-# ## List methods
+# ## List operations
+# append : append() adds an element at the end of the list
+# insert : insert() adds and element at specified index
+# extends : extend() adds multiple elements to the list.
+# remove : remove() removes the specified value
+# pop : pop() removes element based on index. If index is not given, pop() removes the last element
+# clear : clear() removes all elements from the list.
+# del : del can delete an element or entire list.
+# sort : Sort the fruits based on the name
+# count : Count the occurences of item in a list
+
+
 # # Append
 # lst.append("orange")
 # print(lst)
@@ -51,6 +62,10 @@
 # lst.clear()
 # print(lst)
 
+## Delete the list
+#del(lst)
+print(lst)
+
 # ## Extend items in a list by appending another list
 fruits=['banana','orange','kiwi','watermelon','apple']
 # lst.extend(fruits)
@@ -65,13 +80,9 @@ fruits=['banana','orange','kiwi','watermelon','apple']
 # lst.sort()
 # print(lst)
 
-# ## Cound the items in the list
+# ## Count the items in the list
 # num = lst.count('banana')
 # print(num)
-
-# ## Reverse a list
-# lst.reverse()
-# print(lst)
 
 #### List functions
 
@@ -96,17 +107,32 @@ fruits=['banana','orange','kiwi','watermelon','apple']
 #     print(item)
 
 # # Iterating over using index with enumerate
-#
+# Enumerate takes an iterable(list,string,tuple) and returns an iterator that produces a pair
 ## Start from a specific index number
 # for num,item in enumerate(fruits,start=1):
 #     print(num,item)
 
 ## List comprehension
 
-## Print Range from 0 to 6
+#** List comprehension is a short and clean way to create a new list from an existing sequence like range, list, tuple, or string.
+
+#** It is mainly used to reduce multiple lines of loop code into a single line.
+
+## Print Range from 1 to 6
+# normal way
+# numbers = []
+# for i in range(1,6):
+#     numbers.append(i)
+
 # Basic Syntax [expression for item in iterable]
-numbers = [x for x in range(0,7)]
+numbers = [x for x in range(1,6)]
 #print(numbers)
+
+# square of numbers in normal way
+# squares = []
+# for i in range(1,6):
+#     squares.append(i*i)
+# print(squares)
 
 # ## Basic Syntax [expression for item in iterable]
 # lst=[x**2 for x in range(10) ]
@@ -115,6 +141,18 @@ numbers = [x for x in range(0,7)]
 # ## Basic Syntax with Logic [expression for item in iterable if condition]
 # lst=[x**2 for x in range(10) if x % 2 == 0]
 # print(lst)
+
+# Even Numbers
+#  normal way
+# even_numbers = []
+# for i in range(1,11):
+#     if i % 2 == 0:
+#      even_numbers.append(i)
+# print(even_numbers)
+
+# list comprehension
+even_numbers = [i for i in range(1,11) if i % 2 == 0]
+print(even_numbers)
 
 # ## Basic Syntax with Logic [expression for item in iterable if else condition]
 marks = [80, 30, 90, 45, 20]
